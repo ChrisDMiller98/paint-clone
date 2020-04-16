@@ -75,57 +75,6 @@ namespace Starting_CM
 
         }
 
-        private void SizeUp_Click(object sender, RoutedEventArgs e)
-        {
-            Steve.DefaultDrawingAttributes.Width++;
-            Steve.DefaultDrawingAttributes.Height++;
-        }
-
-        private void SizeDown_Click(object sender, RoutedEventArgs e)
-        {
-            Steve.DefaultDrawingAttributes.Width--;
-            Steve.DefaultDrawingAttributes.Height--;
-        }
-
-        private void Fill_Click(object sender, RoutedEventArgs e)
-        {
-            Steve.DefaultDrawingAttributes.Width = 1000;
-            Steve.DefaultDrawingAttributes.Height = 1000;
-        }
-
-        private void White_Click(object sender, RoutedEventArgs e)
-        {
-            Steve.DefaultDrawingAttributes.Color = Colors.White;
-        }
-
-        private void Gray_Click(object sender, RoutedEventArgs e)
-        {
-            Steve.DefaultDrawingAttributes.Color = Colors.Gray;
-        }
-
-        private void Green_Click(object sender, RoutedEventArgs e)
-        {
-            Steve.DefaultDrawingAttributes.Color = Colors.Green;
-        }
-
-        private void Orange_Click(object sender, RoutedEventArgs e)
-        {
-            Steve.DefaultDrawingAttributes.Color = Colors.Orange;
-        }
-
-        private void Purple_Click(object sender, RoutedEventArgs e)
-        {
-            Steve.DefaultDrawingAttributes.Color = Colors.Purple;
-        }
-
-        private void Pink_Click(object sender, RoutedEventArgs e)
-        {
-            Steve.DefaultDrawingAttributes.Color = Colors.Pink;
-        }
-
-        private void Brown_Click(object sender, RoutedEventArgs e)
-        {
-            Steve.DefaultDrawingAttributes.Color = Colors.Brown;
-        }
+       
     }
 }
