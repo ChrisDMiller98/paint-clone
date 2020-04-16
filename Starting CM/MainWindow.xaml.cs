@@ -18,6 +18,7 @@ namespace Starting_CM
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
+    /// CHange
     /// </summary>
     public partial class MainWindow : Window
     {
